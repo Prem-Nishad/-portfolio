@@ -64,10 +64,10 @@ export default function Sidebar({ theme, setTheme }) {
           <a href="mailto:premnishad0007@gmail.com">
             <span>mail</span>premnishad0007@gmail.com
           </a>
-          <a href="#" onClick={(e) => e.preventDefault()}>
+          <a href="https://github.com/Prem-Nishad">
             <span>gh</span>github.com/premnishad
           </a>
-          <a href="#" onClick={(e) => e.preventDefault()}>
+          <a href="https://www.linkedin.com/in/prem-nishad-10a313338/">
             <span>in</span>linkedin.com/in/premnishad
           </a>
         </div>
