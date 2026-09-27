@@ -28,5 +28,33 @@ export const PROJECTS = [
       "Created database schemas and integrated backend services with MongoDB and Mongoose",
       "Managed source control and deployment workflows with Git, GitHub and Vercel",
     ],
+    repoUrl: "https://github.com/Prem-Nishad/Stream-Lite",
+  },
+  {
+    name: "Student-Record-API",
+    badge: "backend",
+    tagline: "REST API for student records",
+    stack: ["Node.js", "Express", "MongoDB", "Mongoose", "dotenv"],
+    desc: "A REST API for managing student records, built with Express and MongoDB/Mongoose and organized around a clean controllers–models–routes structure.",
+    feats: [
+      "Built full CRUD endpoints for student records using Express and Mongoose",
+      "Structured the codebase into controllers, models and routes for maintainability",
+      "Used environment-based configuration with dotenv",
+    ],
+    repoUrl: "https://github.com/Prem-Nishad/Student-Record-API",
+  },
+  {
+    name: "Portfolio",
+    badge: "live",
+    tagline: "This developer portfolio — React + Vite",
+    stack: ["React", "Vite", "CSS"],
+    desc: "A code-editor-inspired personal portfolio built with React and Vite — the site you're looking at right now, featuring a terminal-style hero, file-tree navigation and expandable project entries.",
+    feats: [
+      "Designed a code-editor / terminal aesthetic with custom CSS design tokens",
+      "Built out section components (About, Skills, Projects, Education, Contact) in React",
+      "Deployed as a static Vite build on Vercel",
+    ],
+    repoUrl: "https://github.com/Prem-Nishad/-portfolio",
+    liveUrl: "https://portfolio-ashy-psi-14.vercel.app",
   },
 ];

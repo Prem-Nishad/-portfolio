@@ -30,6 +30,20 @@ function Project({ p, open, onToggle }) {
               <li key={i}>{f}</li>
             ))}
           </ul>
+          {(p.repoUrl || p.liveUrl) && (
+            <div className="project-links">
+              {p.repoUrl && (
+                <a className="btn btn-ghost" href={p.repoUrl} target="_blank" rel="noopener noreferrer">
+                  ↗ Source
+                </a>
+              )}
+              {p.liveUrl && (
+                <a className="btn btn-ghost" href={p.liveUrl} target="_blank" rel="noopener noreferrer">
+                  ↗ Live site
+                </a>
+              )}
+            </div>
+          )}
         </div>
       )}
     </div>

@@ -472,6 +472,13 @@
     font-family: var(--font-mono);
   }
 
+  .project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .project-links .btn { padding: 7px 14px; font-size: 0.78rem; }
+
   /* ---------- Education ---------- */
   .edu-row {
     display: flex;

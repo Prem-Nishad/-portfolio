@@ -17,9 +17,6 @@ export default function Contact() {
         <div className="contact-file">
           <div className="line comment">## reach me directly</div>
           <div className="line">
-            <span className="k">phone</span> = <span className="v">"+91 9770422701"</span>
-          </div>
-          <div className="line">
             <span className="k">email</span> = <span className="v">"premnishad0007@gmail.com"</span>
           </div>
           <div className="line">
