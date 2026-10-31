@@ -58,9 +58,6 @@ export default function Sidebar({ theme, setTheme }) {
           </button>
         </div>
         <div className="social-links">
-          <a href="tel:+919770422701">
-            <span>tel</span>+91 97704 22701
-          </a>
           <a href="mailto:premnishad0007@gmail.com">
             <span>mail</span>premnishad0007@gmail.com
           </a>
